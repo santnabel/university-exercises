@@ -1,15 +1,3 @@
-/*
-5. URlizando el ciclo While imprima en pantalla lo siguiente, solicite al usuario el 
-limite: 
- 
-Limite: 5 
- 
-1 
-22 
-333 
-4444 
-55555 
-*/
 public class Print_Numbers {
     public static void main(String[] args) {
         String option = "Y";
