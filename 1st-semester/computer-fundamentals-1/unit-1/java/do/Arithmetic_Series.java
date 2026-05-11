@@ -1,8 +1,8 @@
 /*
- Serie aritmetica: Cada termino se obtiene sumando una constante a su
- anterior. Por ejemplo, comenzando con 1 y sumando 2:
+ Arithmetic Series: Each term is obtained by adding a constant to its
+ previous. For example, starting with 1 and adding 2:
  1, 3, 5, 7, 9,...
- Solicite: Inicio, constante y fin.
+ The program must request: Start, constant and end.
 */
 import java.util.Scanner;
 
