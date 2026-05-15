@@ -1,9 +1,9 @@
 /*
- Calcule el valor de pi a partir de la siguiente serie infinita (Serie Gregory-Leibniz)
+ Calculate the value of pi using the following infinite series (Gregory-Leibniz series):
  pi = 4/1 - 4/3 + 4/5 - 4/7 + 4/9 - 4/11 +....
- Para 20 iteraciones e imprimir el resultado.
+ For 20 iterations and print out the result.
 */
-public class Serie_Gregory {
+public class Gregory_Series {
     public static void main (String[] args) {
         double j = 4, b = 1, pi = 0;
         for (int i = 0; i < 20; i++) {
@@ -12,6 +12,6 @@ public class Serie_Gregory {
             b++; b++;
             j = -j;
         }
-        System.out.printf("\nEl valor de PI es: %f", pi);
+        System.out.printf("\nPI value is: %f", pi);
     } 
 }
