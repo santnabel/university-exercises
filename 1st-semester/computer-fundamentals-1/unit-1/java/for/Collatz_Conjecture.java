@@ -22,7 +22,7 @@ public class Collatz_Conjecture {
                     number = (number * 3) + 1;
                 }
             }
-            System.out.println("\t" + numero); // > To print 1.
+            System.out.println("\t" + number); // > To print 1.
         } else {
             System.out.println("ERROR!!!111!!11!!1");
         }
