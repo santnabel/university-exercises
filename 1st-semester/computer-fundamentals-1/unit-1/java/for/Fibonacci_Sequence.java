@@ -16,7 +16,7 @@ public class Fibonacci_Sequence {
             System.out.printf(", %d", sum);
             suma = i + j;
             i = j; // > "i" takes the previous value of "j".
-            j = suma; // > "j" takes the value of the new number (sum).
+            j = sum; // > "j" takes the value of the new number (sum).
         }
         input.close();
     }
